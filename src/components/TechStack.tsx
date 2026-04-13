@@ -14,19 +14,19 @@ import {
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
   "/images/react2.webp",
-  "/images/docker.svg",
+  "/images/next2.webp",
   "/images/node2.webp",
   "/images/express.webp",
   "/images/mongo.webp",
-  "/images/aws.svg",
-  "/images/python.svg",
+  "/images/mysql.webp",
+  "/images/typescript.webp",
   "/images/javascript.webp",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 
-const spheres = [...Array(15)].map(() => ({
+const spheres = [...Array(30)].map(() => ({
   scale: [0.7, 1, 0.8, 1, 1][Math.floor(Math.random() * 5)],
 }));
 
@@ -203,6 +203,9 @@ const TechStack = () => {
           environmentIntensity={0.5}
           environmentRotation={[0, 4, 2]}
         />
+        <EffectComposer enableNormalPass={false}>
+          <N8AO color="#0f002c" aoRadius={2} intensity={1.15} />
+        </EffectComposer>
       </Canvas>
     </div>
   );
