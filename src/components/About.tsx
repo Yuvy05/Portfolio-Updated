@@ -6,11 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I'm a Computer Science student and Full-Stack Developer dedicated to crafting 
-          elegant, scalable web solutions. With a focus on clean architecture and 
-          maintainable code, I bridge the gap between complex problems and 
-          user-centric digital experiences. Currently deep-diving into the world of 
-          Ruby on Rails.
+          I am an aspiring Software Engineer and Full-Stack Developer dedicated to the 
+          pursuit of technical excellence. My approach combines rigorous engineering 
+          principles with a passion for user-centric design, allowing me to architect 
+          scalable digital solutions that are both robust and intuitive. Currently 
+          honing my expertise in building high-performance backends using Ruby on Rails.
         </p>
       </div>
     </div>
