@@ -1,6 +1,16 @@
 import "./styles/Career.css";
+import { useEffect } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Career = () => {
+  useEffect(() => {
+    // Refresh ScrollTrigger to account for content height changes
+    ScrollTrigger.refresh();
+  }, []);
+
   return (
     <div className="career-section section-container">
       <div className="career-container">

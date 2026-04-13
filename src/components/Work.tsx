@@ -79,6 +79,9 @@ const Work = () => {
     ease: "none",
   });
 
+  // Ensure all triggers are updated
+  ScrollTrigger.refresh();
+
   // Clean up (optional, good practice)
   return () => {
     timeline.kill();
