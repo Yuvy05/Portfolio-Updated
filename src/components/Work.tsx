@@ -6,6 +6,45 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(useGSAP);
 
+const projects = [
+  {
+    name: "Task Management App",
+    category: "Full-Stack Web App",
+    tools: "React, Node.js, MongoDB",
+    image: "/images/tm.png"
+  },
+  {
+    name: "Developer Collaboration Platform",
+    category: "Web Application",
+    tools: "React, Node.js, Authentication",
+    image: "/images/dc.png"
+  },
+  {
+    name: "Personal Finance Tracker",
+    category: "Full-Stack Web App",
+    tools: "React, Node.js, MongoDB",
+    image: "/images/ft.png"
+  },
+  {
+    name: "Certifications",
+    category: "Oracle, OCI, Microsoft",
+    tools: "Oracle Cloud Database, OCI Data Science, C#",
+    image: "/images/cert.png"
+  },
+  {
+    name: "Leadership",
+    category: "GeoSpatial Community",
+    tools: "Financial Head (Managed 10+ events)",
+    image: "/images/ldr.png"
+  },
+  {
+    name: "Open Source",
+    category: "Community Contributions",
+    tools: "Reviewed PRs, improved code quality",
+    image: "/images/os.png"
+  }
+];
+
 const Work = () => {
   useGSAP(() => {
   let translateX: number = 0;
@@ -53,21 +92,21 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
+          {projects.map((project, index) => (
             <div className="work-box" key={index}>
               <div className="work-info">
                 <div className="work-title">
                   <h3>0{index + 1}</h3>
 
                   <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
+                    <h4>{project.name}</h4>
+                    <p>{project.category}</p>
                   </div>
                 </div>
                 <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
+                <p>{project.tools}</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <WorkImage image={project.image} alt={project.name} />
             </div>
           ))}
         </div>

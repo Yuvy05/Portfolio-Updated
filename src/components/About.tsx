@@ -6,9 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          I'm a Computer Science student and Full-Stack Developer dedicated to crafting 
+          elegant, scalable web solutions. With a focus on clean architecture and 
+          maintainable code, I bridge the gap between complex problems and 
+          user-centric digital experiences. Currently deep-diving into the world of 
+          Ruby on Rails.
         </p>
       </div>
     </div>
