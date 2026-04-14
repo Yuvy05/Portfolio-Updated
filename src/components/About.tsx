@@ -6,10 +6,10 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Aspiring Software Engineer and Full-Stack Developer focused on building 
-          scalable, user-centric digital solutions. I combine rigorous engineering 
-          with intuitive design, currently specializing in Ruby on Rails for 
-          high-performance backends.
+          I'm Yuvraj Sharma, an aspiring Software Engineer and Full-Stack Developer 
+          focused on building scalable, user-centric digital solutions. I combine 
+          rigorous engineering with intuitive design, currently specializing in 
+          Ruby on Rails for high-performance backends.
         </p>
       </div>
     </div>
