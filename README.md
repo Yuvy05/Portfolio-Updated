@@ -2,6 +2,8 @@
 
 Welcome to my personal portfolio repository. This project showcases my journey as a Full-Stack Developer and Software Engineer, highlighting my focus on technical excellence, scalable architecture, and immersive user experiences.
 
+### 🔗 Live Demo: [https://yuvraj-portfolio-rosy.vercel.app](https://yuvraj-portfolio-rosy.vercel.app)
+
 ---
 
 ## ✨ Features
@@ -54,7 +56,7 @@ To run this project locally, follow these steps:
 This portfolio was built for personal branding and showcasing technical skills. 
 
 - **Custom 3D Content**: The 3D environments and avatars are custom integrations.
-- **GSAP Plugins**: This project may use trial versions of GSAP Club plugins. For production use, a valid GSAP Club license is required.
+- **GSAP Plugins**: This project uses GSAP bonus plugins (ScrollSmoother, SplitText) which are now free to use.
 
 ---
 
